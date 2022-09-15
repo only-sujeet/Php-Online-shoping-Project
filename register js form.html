@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>SIGN up</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="divpractice.css">
+  <link rel="stylesheet" href="bootstrap.min.css">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" >
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script type="text/javascript" src="jsfunction2.js"language="javascript">
+  </script>  
+</head>
+<body>
+<div class="container pt-3">
+<h1 align="center">SIGN-up</h1>
+<div class="page">
+<br>
+<form class="need-validation" name="frmreg" id="frmreg" onsubmit="return validate();" type="get">
+
+<div class="form-group">
+<div class="row">
+<div class="col-sm-2"><label class="label" for="fname" id="fname">Name:-</label></div>
+<div class="col-sm-10">
+<input type="text" id="txtname" title="Name" for="txtname" placeholder="Enter Name Here.."  onblur='fname(this.id,"val1");' onfocus="changecolor(this.id);"class="form-control" name="txtName">
+</div>
+<label id="val1" class="error" for="fname"></label>
+</div>
+</div>
+<br>
+<div class="form-group">
+<div class="row">
+<div class="col-sm-2"><label class="label" for="address" id="address">Address:-</label></div>
+<div class="col-sm-10"><input type="text" id="txtadd" for="txtadd" title="Address" class="form-control" onblur='add(this.id,"val2")' onfocus="changecolor(this.id)"placeholder="Enter Address Here.." name="address">
+</div>
+<label id="val2" class="error" for="address"></label>
+</div>
+</div>
+<br>
+<div class="form-group">
+<div class="row">
+<div class="col-sm-2"><label class="label" for="address" id="address">Mobile No:-</label></div>
+<div class="col-sm-10"><input type="number" id="txtno" for="txtno" title="Moblie number" class="form-control" onblur='mob(this.id,"val3");' onfocus="changecolor(this.id)"placeholder="Enter Mobile Number Here.." name="Mobile Number">
+</div>
+<label id="val3" class="error" for="mobile no."></label>
+</div>
+</div>
+<br>
+<div class="form-group">
+<div class="row">
+<div class="col-sm-2"><label  class="label" for="bdate" id="bdate">Birth-Date:-</label></div>
+<div class="col-sm-10"><input type="date" id="txtbdate" for="txtbdate" title="Birth-Date" class="form-control"placeholder="Enter Birth-Date Here.." onfocus="changecolor(this.id)"name="birth-date"></div>
+</div>
+</div>
+<br>
+<div class="form-group">
+<div class="row">
+<div class="col-sm-2"><label  class="label" for="scity" id="scity">City:-</label></div>
+<div class="col-sm-10">
+<select id="selcity" class=" form-control form-select" placeholder="Choose City Here.." onfocus="changecolor(this.id)"onblur='chksel(this.id,"val6");' name="selcity">
+  <option value="0" selected>-------</option>
+  <option value="1">Surat</option>
+  <option value="2">Gandhi nagar</option>  
+  <option value="3">Vadodara</option>
+  <option value="4">Ahemedabad</option>
+  <option value="5">Valsad</option>
+</select>
+</div>
+<label id="val6" class="error" for="city"></label>
+</div>
+</div>
+<br>
+<div class="form-group">
+<div class="row">
+<div class="col-sm-2"><label class="label" for="email" id="email">Email:-</label></div>
+<div class="col-sm-10"><input type="email" id="txtemail" for="txtemail"  class="form-control" onfocus="changecolor(this.id)"
+ onblur='email(this.id,"val4")'placeholder="Enter Email Here.." name="Email">
+</div>
+<label id="val4" class="error" for="Email"></label>
+</div>
+</div>
+<br>
+<div class="form-group">
+<div class="row">
+<div class="col-sm-2"><label class="label" for="pwd" id="pwd">Password:-</label></div>
+<div class="col-sm-10"><input type="password" id="txtpassword" for="txtpwd"  class="form-control" onfocus="changecolor(this.id)"
+ onblur='pass(this.id,"val5")'placeholder="Enter Password Here.." name="Password">
+</div>
+<label id="val5" class="error" for="password"></label>
+</div>
+</div>
+<br>
+<div class="form-group">
+<label class="label">Gender:-</label>
+<div class="form-check">
+<input class="form-check-input" type="radio"   id="male" name="gender" checked />
+<label class="form-check-label label" for="male"  >Male</label></div>
+<div class="form-check">
+<input class="form-check-input" type="radio"  id="female" name="gender"/>
+<label class="form-checl-label label" for="female">Female</label>
+</label>
+</div>
+</div>
+<div class="form-group" align="center">
+<input type="submit" class="btn btn-success" id="btnsubmit" value="SUBMIT">
+<input type="reset" class="btn btn-primary" id="btnreset" value="RESET">
+</div>
+<div align="center">
+<label id="val7" class="error" for="submission"></label>
+</div>
+</form>
+</div>
+</div>
+</body>
+</html>

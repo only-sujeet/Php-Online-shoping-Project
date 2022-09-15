@@ -1,0 +1,101 @@
+/* .gallary
+{  display: grid;
+    grid-template-columns: repeat(4,auto);
+    grid-gap: 10px;
+    margin:auto;
+}
+.card{
+    margin:auto;
+    display: grid;
+    grid-template-columns:200px;
+    grid-gap: 2rem;
+
+    grid-template-rows: 50px 20px 20px 45px;
+    grid-template-areas: "image" "name" "price" "btn";
+    border-radius: 40px;
+    background: white;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
+    font-family: popins;
+    text-align: center;
+}
+.card-image{
+
+    grid-area: "image";
+    height: inherit;
+    width: inherit;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    /* background-size: cover; */
+
+/* }
+.card-name{
+    grid-area: "name";
+   
+}
+.card-price{
+    grid-area: "price";
+}
+.card-btn{
+    grid-area: "btn";
+    color: white;
+}
+.card:hover
+{
+	transform:scale(1.1);
+} */
+/* .card-image img{
+    width: inherit;
+    height: inherit;
+    
+    object-fit: cover;
+} */
+/* .card-btn a{
+    text-decoration: none;
+} */ 
+    *{
+        text-decoration: none;
+        font-family:'Times New Roman', Geneva, Tahoma, sans-serif;
+        
+    }
+    
+    .card{
+        box-shadow: 3px 3px 10px;
+        width: 25rem;
+        height: 43rem;
+        margin: 30px  ;
+        background-color: darkgray; 
+        border-radius: 20px;
+        padding: 20px;
+    }
+    #img{
+        width: 21rem;
+        height: 21rem;
+        background-size: cover;
+        border-radius: 10px;
+    }
+    .row{
+        padding: 10px;
+    }
+    
+    
+    a{
+        text-decoration: none;
+        color: black;
+    }
+    h3{
+        font-size: 25px;
+    }
+    h5{
+        font-size: 22px;    
+        /* color: green; */
+    }
+    .button{
+        font-size: 15px;
+    }
+    .card-body{
+        padding: 0%;
+        color :rgb(49, 42, 42);
+    }
+
+    
+    

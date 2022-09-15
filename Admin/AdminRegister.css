@@ -1,0 +1,35 @@
+*
+{
+  font-family:popins;
+}
+.label
+{
+	font-size:25px;
+	
+}
+h1,h2,h3,h4
+{
+	font-family:algerian;
+	color:crimson;
+}
+.page
+{
+	
+	background-color:lightblue;
+	height: 510px;
+	width:90%;
+	margin-left:5%;
+	margin-bottom:5%;
+	border-radius: 50px;
+}
+form
+{
+	margin-left:5%;
+	margin-right:5%;
+	margin-top:5%;
+	
+}
+.error
+{
+	color:red;
+}

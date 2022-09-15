@@ -1,0 +1,76 @@
+body{
+
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.body1{
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container
+{
+    width: 60%;
+    margin-top: 5%;
+    margin-left: 20%;
+    padding: 3%;
+    background-color: rgba(130, 93, 165, 0.56);
+    border-radius: 20px;
+    height: 740px;
+    margin-bottom: 5%;
+}
+.container1
+{
+    width: 60%;
+    margin-top: 6%;
+    margin-left: 20%;
+    padding: 3%;
+    /* background-color: rgba(130, 93, 165, 0.56); */
+    border-radius: 20px;
+    height: 450px;
+    margin-bottom: 7%;
+}
+form
+{
+    
+    font-size: 20px;
+    font-family: popins;
+    font-weight:bold;
+   
+}
+
+input[type=text]{
+    border-radius: 15px;
+   
+   
+}   
+input[type=date]{
+    border-radius: 15px;
+
+   
+}   
+input[type=email]{
+    border-radius: 15px;
+
+   
+}   
+input[type=password]{
+    border-radius: 15px;
+
+   
+}   
+#selcity{
+    border-radius: 15px;
+
+   
+}   
+
+.error{
+    color: crimson;
+}
+.a{
+    text-decoration: none;
+}
+.p{
+    font-size: 15px;
+}
